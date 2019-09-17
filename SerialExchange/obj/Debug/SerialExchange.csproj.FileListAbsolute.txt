@@ -1,0 +1,10 @@
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\bin\Debug\SerialExchange.exe.config
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\bin\Debug\SerialExchange.exe
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\bin\Debug\SerialExchange.pdb
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\obj\Debug\SerialExchange.csprojAssemblyReference.cache
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\obj\Debug\SerialExchange.Form1.resources
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\obj\Debug\SerialExchange.Properties.Resources.resources
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\obj\Debug\SerialExchange.csproj.GenerateResource.cache
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\obj\Debug\SerialExchange.csproj.CoreCompileInputs.cache
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\obj\Debug\SerialExchange.exe
+C:\Users\omer-\Desktop\SerialCommunication\SerialExchange\SerialExchange\obj\Debug\SerialExchange.pdb

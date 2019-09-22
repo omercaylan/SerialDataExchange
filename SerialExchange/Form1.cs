@@ -63,5 +63,39 @@ namespace SerialExchange
                 serialPort1.Write(dataOut);
             }
         }
+
+        private void sbtnOpen_Click(object sender, EventArgs e)
+        {
+            if (serialPort1.IsOpen)
+            {
+                try
+                {
+                serialPort2.PortName = scBoxCOMPORT.Text;
+                serialPort2.BaudRate = Convert.ToInt32(scBoxBAUDRATE.Text);
+                serialPort2.DataBits = Convert.ToInt32( scBoxDATABITS.Text);
+                serialPort2.StopBits = (StopBits)Enum.Parse(typeof(StopBits), scBoxSTOPBITS.Text);
+                serialPort2.Parity = (Parity)Enum.Parse(typeof(Parity), scBoxSTOPBITS.Text);
+
+                serialPort2.Open();
+                progressBar2.Value = 100;
+                }
+                catch(Exception err)
+                {
+                    MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+
+            }
+        }
+
+        private void sbtnSent_Click(object sender, EventArgs e)
+        {
+            if(serialPort2.IsOpen)
+            {
+                dataOut = tBoxDataOut.Text;
+                serialPort2.Write(dataOut);
+
+            }
+        }
     }
 }

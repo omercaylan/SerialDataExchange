@@ -64,6 +64,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.scBoxCOMPORT = new System.Windows.Forms.ComboBox();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.serialPort2 = new System.IO.Ports.SerialPort(this.components);
             this.groupBox5.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -297,6 +298,7 @@
             this.sbtnOpen.TabIndex = 26;
             this.sbtnOpen.Text = "Open";
             this.sbtnOpen.UseVisualStyleBackColor = true;
+            this.sbtnOpen.Click += new System.EventHandler(this.sbtnOpen_Click);
             // 
             // sbtnClose
             // 
@@ -322,6 +324,7 @@
             this.sbtnSent.TabIndex = 24;
             this.sbtnSent.Text = "Master DeviceSent Message to slave";
             this.sbtnSent.UseVisualStyleBackColor = true;
+            this.sbtnSent.Click += new System.EventHandler(this.sbtnSent_Click);
             // 
             // groupBox3
             // 
@@ -450,7 +453,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1015, 510);
+            this.ClientSize = new System.Drawing.Size(927, 322);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Name = "Form1";
@@ -505,6 +508,7 @@
         private System.Windows.Forms.ComboBox mcBoxPARITYBITS;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox mcBoxCOMPORT;
+        private System.IO.Ports.SerialPort serialPort2;
     }
 }
 
